@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Affordable Website Design in the Philippines | AM Web Design Studio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- scroll to top -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+
+  <style>
+
+    body {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  scroll-margin-top: 90px;
+}
+
+
+    /* Hero Background Image */
+    .hero {
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+                  url('./hero-bg.avif') no-repeat center center/cover;
+      min-height: 100vh;
+      color: white;
+      padding: 120px 0;
+      text-align: center;
+    }
+
+    .services .card {
+      transition: transform 0.3s ease;
+    }
+
+    .services .card:hover {
+      transform: translateY(-10px);
+    }
+
+    footer {
+      background-color: #343a40;
+      color: white;
+      padding: 20px 0;
+    }
+
+    /* Fixed Navbar */
+    .navbar {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1030;
+    }
+
+    /* Scroll to Top Button */
+    #scrollTopBtn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  display: none;
+  z-index: 9999;
+  width: 45px;
+  height: 45px;
+  font-size: 1.2rem;
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+#scrollTopBtn:hover {
+  transform: translateY(-3px);
+  opacity: 0.9;
+}
+
+
+    /* footer */
+.fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.light-mode {
+  background-color: #f8f9fa !important;
+  color: #212529 !important;
+}
+
+.light-mode a {
+  color: #212529 !important;
+}
+
+.light-mode .btn-outline-light {
+  color: #212529;
+  border-color: #212529;
+}
+
+/* Hand pointer on hover */
+
+.portfolio-item {
+  cursor: pointer;
+}
+
+/* navbar logo */
+
+
+
+  </style>
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="80" tabindex="0">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+  <!-- Logo for large screens -->
+  <img src="./logo-main2.png" alt="Affordable website design for small businesses in the Philippines" style="height: 50px;" class="d-none d-md-inline">
+  
+  <!-- Logo for small screens -->
+  <img src="./logo-main2.png" alt="Affordable website design for small businesses in the Philippines" style="height: 40px;" class="d-inline d-md-none">
+</a>
+
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+          
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+          <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Spacer for Fixed Navbar -->
+  <!-- <div style="height: 70px;"></div> -->
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero d-flex align-items-center">
+  <div class="container text-center text-white">
+    <h1 class="display-4 fw-bold">Custom Websites for Every Need</h1>
+    <p class="lead">AM Web Design Studio creates fast, custom websites for small businesses, clinics, personal brands, and resumes — perfect for Filipinos looking for affordable web solutions.</p>
+    <a href="#contact" class="btn btn-primary btn-lg mt-3">Get Started</a>
+  </div>
+</section>
+
+
+
+
+<!-- About Section -->
+ <section id="about" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-5">About Us</h2>
+    <div class="row align-items-center">
+      <!-- Image Column -->
+      <div class="col-md-6 mb-4 mb-md-0">
+        <img 
+          src="./teamwork-about.avif" 
+          alt="Affordable website design for small businesses in the Philippines" 
+          class="img-fluid rounded shadow" />
+      </div>
+
+      <!-- Text Column -->
+      <div class="col-md-6">
+        <h4>Empowering Filipinos with Professional Websites</h4>
+        <p>At <strong>AM Web Design Studio</strong>, we specialize in helping Filipinos—students, freelancers, business owners—create their own space online. Whether you need a personal site, resume, clinic page, or business website, we deliver clean, responsive designs tailored to your goals.</p>
+
+        <p>Our mission is to make professional web design accessible and hassle-free. No coding needed—just clear communication, affordable pricing, and results you’ll be proud of.</p>
+
+        <p>We handle everything—from layout to launch—so you can focus on your future while we build your digital presence.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- services -->
+ <section id="services" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center fw-bold mb-5">Our Services</h2>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+
+      <!-- Personal Websites -->
+      <div class="col">
+        <div class="card h-100 border-0 shadow-sm text-center p-4">
+          <div class="mb-3 text-primary fs-1">
+            <i class="bi bi-person-circle"></i>
+          </div>
+          <h5 class="fw-semibold">Personal Websites</h5>
+          <p class="text-muted">Simple websites to share personal profiles, hobbies, or interests.</p>
+        </div>
+      </div>
+
+      <!-- Resume / CV -->
+      <div class="col">
+        <div class="card h-100 border-0 shadow-sm text-center p-4">
+          <div class="mb-3 text-primary fs-1">
+            <i class="bi bi-file-earmark-person"></i>
+          </div>
+          <h5 class="fw-semibold">Resume / CV Websites</h5>
+          <p class="text-muted">Professional online resumes to showcase your skills and experiences.</p>
+        </div>
+      </div>
+
+      <!-- Clinic Websites -->
+      <div class="col">
+        <div class="card h-100 border-0 shadow-sm text-center p-4">
+          <div class="mb-3 text-primary fs-1">
+            <i class="bi bi-heart-pulse"></i>
+          </div>
+          <h5 class="fw-semibold">Clinic Websites</h5>
+          <p class="text-muted">Perfect for doctors and dental clinics to showcase services and allow bookings.</p>
+        </div>
+      </div>
+
+      <!-- E-commerce Websites -->
+      <div class="col">
+        <div class="card h-100 border-0 shadow-sm text-center p-4">
+          <div class="mb-3 text-primary fs-1">
+            <i class="bi bi-cart-check"></i>
+          </div>
+          <h5 class="fw-semibold">E-commerce Websites</h5>
+          <p class="text-muted">Online stores to sell your products with payment integration and inventory.</p>
+        </div>
+      </div>
+
+      <!-- Booking / Appointment -->
+      <div class="col">
+        <div class="card h-100 border-0 shadow-sm text-center p-4">
+          <div class="mb-3 text-primary fs-1">
+            <i class="bi bi-calendar-check"></i>
+          </div>
+          <h5 class="fw-semibold">Booking / Appointment</h5>
+          <p class="text-muted">Let customers book services or appointments directly from your website.</p>
+        </div>
+      </div>
+
+      <!-- Event Websites -->
+      <div class="col">
+        <div class="card h-100 border-0 shadow-sm text-center p-4">
+          <div class="mb-3 text-primary fs-1">
+            <i class="bi bi-calendar-event"></i>
+          </div>
+          <h5 class="fw-semibold">Event Websites</h5>
+          <p class="text-muted">Promote and manage events like weddings, conferences, or community programs.</p>
+        </div>
+      </div>
+
+      <!-- Blog Websites -->
+      <div class="col">
+        <div class="card h-100 border-0 shadow-sm text-center p-4">
+          <div class="mb-3 text-primary fs-1">
+            <i class="bi bi-journal-richtext"></i>
+          </div>
+          <h5 class="fw-semibold">Blog / Content Sites</h5>
+          <p class="text-muted">Share stories, tips, tutorials or articles through an elegant blog layout.</p>
+        </div>
+      </div>
+
+      <!-- Business Websites -->
+      <div class="col">
+        <div class="card h-100 border-0 shadow-sm text-center p-4">
+          <div class="mb-3 text-primary fs-1">
+            <i class="bi bi-briefcase"></i>
+          </div>
+          <h5 class="fw-semibold">Business Websites</h5>
+          <p class="text-muted">Corporate websites with professional design to showcase your services or brand.</p>
+        </div>
+      </div>
+
+      <!-- Landing Page Website -->
+<div class="col">
+  <div class="card h-100 border-0 shadow-sm text-center p-4">
+    <div class="mb-3 text-primary fs-1">
+      <i class="bi bi-box-arrow-in-down-left"></i>
+    </div>
+    <h5 class="fw-semibold">Landing Page Websites</h5>
+    <p class="text-muted">High-converting one-page websites ideal for ads, product launches, or promotions.</p>
+  </div>
+</div>
+
+      
+    </div>
+  </div>
+</section>
+
+
+<!-- Pricing -->
+
+<section id="pricing" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-5">Our Pricing Packages</h2>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4 text-center">
+      <!-- Starter Package -->
+      <div class="col">
+        <div class="card h-100 border-0 shadow-lg rounded-4">
+          <div class="card-header bg-white border-0">
+            <span class="badge bg-primary-subtle text-primary mb-2 px-3 py-1 rounded-pill">Starter</span>
+            <h4 class="fw-semibold text-primary">₱3,500</h4>
+            <p class="text-muted small">Perfect for portfolios or small services</p>
+          </div>
+          <div class="card-body">
+            <ul class="list-unstyled text-muted mb-4">
+              <li>✔ 1-page responsive website</li>
+              <li>✔ 4 sections: Home, About, Services, Contact</li>
+              <li>✔ Free domain (1 year)</li>
+              <li>✔ Free web hosting</li>
+              <li>✔ Mobile & desktop friendly</li>
+            </ul>
+            <p class="text-muted"><strong>Delivery:</strong> 3–5 days</p>
+            <a href="https://am-webdesignstudio.github.io/personal-website/" class="btn btn-outline-primary w-100">View Sample Website</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Professional Package -->
+      <div class="col">
+        <div class="card h-100 border-primary border-2 shadow-lg rounded-4">
+          <div class="card-header bg-primary text-white border-0">
+            <span class="badge bg-white text-primary mb-2 px-3 py-1 rounded-pill">Best Value</span>
+            <h4 class="fw-semibold">₱6,000</h4>
+            <p class="small">For growing businesses with more needs</p>
+          </div>
+          <div class="card-body">
+            <ul class="list-unstyled text-muted mb-4">
+              <li>✔ Everything in Starter Package</li>
+              <li>✔ Up to 5 pages (customizable)</li>
+              <li>✔ Advanced contact form</li>
+              <li>✔ Email integration</li>
+              <li>✔ Better design features</li>
+              <li>✔ Basic SEO setup</li>
+              <li>✔ Social media links</li>
+            </ul>
+            <p class="text-muted"><strong>Delivery:</strong> 5–7 days</p>
+            <!-- <a href="#" class="btn btn-primary w-100">View Sample Website</a> -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Business Package -->
+      <div class="col">
+        <div class="card h-100 border-0 shadow-lg rounded-4">
+          <div class="card-header bg-white border-0">
+            <span class="badge bg-primary-subtle text-primary mb-2 px-3 py-1 rounded-pill">Business</span>
+            <h4 class="fw-semibold text-primary">₱10,000</h4>
+            <p class="text-muted small">For established businesses ready to scale</p>
+          </div>
+          <div class="card-body">
+            <ul class="list-unstyled text-muted mb-4">
+              <li>✔ Everything in Pro Package</li>
+              <li>✔ Booking forms or databases</li>
+              <li>✔ Priority support</li>
+              <li>✔ Custom design & branding</li>
+              <li>✔ Google Maps integration</li>
+              <li>✔ Product or service showcase</li>
+              <li>✔ SEO optimized + Analytics</li>
+              <li>✔ 1-month support after launch</li>
+            </ul>
+            <p class="text-muted"><strong>Delivery:</strong> 10–14 days</p>
+            <!-- <a href="#" class="btn btn-primary w-100">View Sample Website</a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<!-- Add Ons and Extras -->
+
+<div class="container py-5">
+    <h2 class="text-center mb-4">Add-ons & Extras</h2>
+    <p class="text-center text-muted mb-5">Customize your website further with these optional features:</p>
+
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+      <!-- Add-on Item -->
+      <div class="col">
+        <div class="card h-100 shadow-sm border-0 p-3">
+          <div class="d-flex align-items-start">
+            <span class="fs-4 me-3">📄</span>
+            <div>
+              <h6 class="fw-bold mb-1">Extra Page</h6>
+              <p class="mb-1 text-muted">₱500 per page</p>
+              <small class="text-muted">Add additional full pages to your site</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Extra Section -->
+      <div class="col">
+        <div class="card h-100 shadow-sm border-0 p-3">
+          <div class="d-flex align-items-start">
+            <span class="fs-4 me-3">➕</span>
+            <div>
+              <h6 class="fw-bold mb-1">Extra Section</h6>
+              <p class="mb-1 text-muted">₱300</p>
+              <small class="text-muted">Add a section like Testimonials, FAQs, etc.</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Google Maps -->
+      <div class="col">
+        <div class="card h-100 shadow-sm border-0 p-3">
+          <div class="d-flex align-items-start">
+            <span class="fs-4 me-3">📍</span>
+            <div>
+              <h6 class="fw-bold mb-1">Google Maps Integration</h6>
+              <p class="mb-1 text-muted">₱200</p>
+              <small class="text-muted">Embed your business location on a live map</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="col">
+        <div class="card h-100 shadow-sm border-0 p-3">
+          <div class="d-flex align-items-start">
+            <span class="fs-4 me-3">📨</span>
+            <div>
+              <h6 class="fw-bold mb-1">Basic Contact Form</h6>
+              <p class="mb-1 text-muted">₱500</p>
+              <small class="text-muted">Includes name, email, and message fields</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Portfolio -->
+      <div class="col">
+        <div class="card h-100 shadow-sm border-0 p-3">
+          <div class="d-flex align-items-start">
+            <span class="fs-4 me-3">🖼️</span>
+            <div>
+              <h6 class="fw-bold mb-1">Portfolio / Image Gallery</h6>
+              <p class="mb-1 text-muted">₱500</p>
+              <small class="text-muted">Showcase your work with a gallery or lightbox</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Messenger Button -->
+      <div class="col">
+        <div class="card h-100 shadow-sm border-0 p-3">
+          <div class="d-flex align-items-start">
+            <span class="fs-4 me-3">💬</span>
+            <div>
+              <h6 class="fw-bold mb-1">Messenger Chat Button</h6>
+              <p class="mb-1 text-muted">₱200</p>
+              <small class="text-muted">Integrate Facebook Messenger live chat</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SEO -->
+      <div class="col">
+        <div class="card h-100 shadow-sm border-0 p-3">
+          <div class="d-flex align-items-start">
+            <span class="fs-4 me-3">🔍</span>
+            <div>
+              <h6 class="fw-bold mb-1">Basic SEO Setup</h6>
+              <p class="mb-1 text-muted">₱500</p>
+              <small class="text-muted">Meta tags for better Google visibility</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- WhatsApp / Call Button -->
+      <div class="col">
+        <div class="card h-100 shadow-sm border-0 p-3">
+          <div class="d-flex align-items-start">
+            <span class="fs-4 me-3">📲</span>
+            <div>
+              <h6 class="fw-bold mb-1">WhatsApp / Call Button</h6>
+              <p class="mb-1 text-muted">₱150</p>
+              <small class="text-muted">Tap-to-call or message button</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Booking Form -->
+      <div class="col">
+        <div class="card h-100 shadow-sm border-0 p-3">
+          <div class="d-flex align-items-start">
+            <span class="fs-4 me-3">🗓️</span>
+            <div>
+              <h6 class="fw-bold mb-1">Booking / Inquiry Form</h6>
+              <p class="mb-1 text-muted">₱700</p>
+              <small class="text-muted">Dropdowns, calendar, and custom fields</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</section>
+
+<!-- Portfolio -->
+
+<section id="portfolio" class="py-5 bg-white">
+  <div class="container">
+    <h2 class="text-center mb-5 fw-bold">Portfolio</h2>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+
+      <!-- Personal Item Example -->
+      <div class="col portfolio-item">
+        <div class="card h-100 border-0 shadow-sm">
+          <a data-bs-toggle="modal" data-bs-target="#modalPersonal">
+            <img src="./personal-600x400.png" class="card-img-top" alt="Affordable website design for small businesses in the Philippines">
+          </a>
+          <div class="card-body text-center">
+            <h5 class="card-title fw-semibold">Personal Website</h5>
+            <p class="card-text text-muted small">A clean website to showcase your personal profile.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Repeat the structure for each portfolio item and change the modal target -->
+
+      <!-- Product -->
+      <div class="col portfolio-item">
+        <div class="card h-100 border-0 shadow-sm">
+          <a data-bs-toggle="modal" data-bs-target="#modalProduct">
+            <img src="./turmeric-600x400.png" class="card-img-top" alt="Affordable website design for small businesses in the Philippines">
+          </a>
+          <div class="card-body text-center">
+            <h5 class="card-title fw-semibold">Product Website</h5>
+            <p class="card-text text-muted small">A product-focused website to promote and sell turmeric-based items.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dental Clinic -->
+      <div class="col portfolio-item">
+        <div class="card h-100 border-0 shadow-sm">
+          <a data-bs-toggle="modal" data-bs-target="#modalDental">
+            <img src="./dental-600x400.png" class="card-img-top" alt="Affordable website design for small businesses in the Philippines">
+          </a>
+          <div class="card-body text-center">
+            <h5 class="card-title fw-semibold">Dental Clinic</h5>
+            <p class="card-text text-muted small">A professional website designed to present dental services and boost patient trust.</p>
+          </div>
+        </div>
+      </div>
+
+ <!-- Spa Website -->
+      <div class="col portfolio-item">
+        <div class="card h-100 border-0 shadow-sm">
+          <a data-bs-toggle="modal" data-bs-target="#modalSpa">
+            <img src="./spa-600x400.png" class="card-img-top" alt="Affordable website design for small businesses in the Philippines">
+          </a>
+          <div class="card-body text-center">
+            <h5 class="card-title fw-semibold">Spa Website</h5>
+            <p class="card-text text-muted small">A relaxing and stylish website made to highlight spa treatments and packages.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Training Centre -->
+      <div class="col portfolio-item">
+        <div class="card h-100 border-0 shadow-sm">
+          <a data-bs-toggle="modal" data-bs-target="#modalTraining">
+            <img src="./training-600x400.png" class="card-img-top" alt="Affordable website design for small businesses in the Philippines">
+          </a>
+          <div class="card-body text-center">
+            <h5 class="card-title fw-semibold">Training Center Website</h5>
+            <p class="card-text text-muted small">An informative website for displaying courses, schedules, and enrollment options.</p>
+          </div>
+        </div>
+      </div>
+
+    <!-- Massage Shop -->
+      <div class="col portfolio-item">
+        <div class="card h-100 border-0 shadow-sm">
+          <a data-bs-toggle="modal" data-bs-target="#modalMassage">
+            <img src="./massage-600x400.png" class="card-img-top" alt="Affordable website design for small businesses in the Philippines">
+          </a>
+          <div class="card-body text-center">
+            <h5 class="card-title fw-semibold">Massage Shop</h5>
+            <p class="card-text text-muted small">A calming website created to promote massage services and accept online bookings.</p>
+          </div>
+        </div>
+      </div>
+
+    
+
+
+      <!-- Add more portfolio cards and link them to the corresponding modals -->
+    </div>
+  </div>
+</section>
+
+<!-- Modals -->
+
+<!-- Personal Website Modal -->
+<div class="modal fade" id="modalPersonal" tabindex="-1" aria-labelledby="modalPersonalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content shadow">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalPersonalLabel">Personal Website</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <img src="./modal-personal.png" class="img-fluid mb-3" alt="Personal Website">
+        <p>This is a clean, modern personal website perfect for showcasing your profile, hobbies, or freelance services.</p>
+      </div>
+      <div class="modal-footer">
+        <a href="https://am-webdesignstudio.github.io/personal-website/" class="btn btn-primary" target="_blank">Visit Website</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Product Modal -->
+<div class="modal fade" id="modalProduct" tabindex="-1" aria-labelledby="modalResumeLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content shadow">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalResumeLabel">Product Website</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <img src="./modal-turmeric-900x500.png" class="img-fluid mb-3" alt="Resume CV">
+        <p>A vibrant, product-focused website built to highlight the benefits of turmeric products and drive online sales or inquiries.</p>
+      </div>
+      <div class="modal-footer">
+        <a href="https://am-webdesignstudio.github.io/turmeric-product-website/" class="btn btn-primary" target="_blank">Visit Website</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Dental Clinic Modal -->
+<div class="modal fade" id="modalDental" tabindex="-1" aria-labelledby="modalResumeLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content shadow">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalResumeLabel">Dental Clinic</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <img src="./modal-dental-900x500.png" class="img-fluid mb-3" alt="Resume CV">
+        <p>A professional, modern website designed to highlight dental services, build trust, and make it easy for patients to book appointments.</p>
+      </div>
+      <div class="modal-footer">
+        <a href="https://am-webdesignstudio.github.io/dental-clinic-website/" class="btn btn-primary" target="_blank">Visit Website</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Spa Modal -->
+<div class="modal fade" id="modalSpa" tabindex="-1" aria-labelledby="modalResumeLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content shadow">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalResumeLabel">Spa Website</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <img src="./modal-spa-900x500.png" class="img-fluid mb-3" alt="Resume CV">
+        <p>An elegant and calming website crafted to showcase spa treatments, promote relaxation, and encourage online bookings.</p>
+      </div>
+      <div class="modal-footer">
+        <a href="https://am-webdesignstudio.github.io/spa-business-website/" class="btn btn-primary" target="_blank">Visit Website</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Training Modal -->
+<div class="modal fade" id="modalTraining" tabindex="-1" aria-labelledby="modalResumeLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content shadow">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalResumeLabel">Training Centre</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <img src="./modal-training-900x500.png" class="img-fluid mb-3" alt="Resume CV">
+        <p>A structured, informative website ideal for presenting courses, schedules, and enrollment details for training programs.</p>
+      </div>
+      <div class="modal-footer">
+        <a href="https://am-webdesignstudio.github.io/training-center-website/" class="btn btn-primary" target="_blank">Visit Website</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Massage Shop Modal -->
+<div class="modal fade" id="modalMassage" tabindex="-1" aria-labelledby="modalResumeLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content shadow">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalResumeLabel">Massage Shop</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <img src="./modal-massage-900x500.png" class="img-fluid mb-3" alt="Resume CV">
+        <p>A soothing, user-friendly website tailored to promote massage services, display packages, and accept client reservations.</p>
+      </div>
+      <div class="modal-footer">
+        <a href="https://am-webdesignstudio.github.io/massage-business-website/" class="btn btn-primary" target="_blank">Visit Website</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<!-- Modals -->
+
+
+
+  <!-- Contact Section -->
+<!-- CONTACT SECTION -->
+<section id="contact" class="py-5 bg-light">
+  <div class="container">
+    <div class="row align-items-start">
+      
+      <!-- Contact Info -->
+      <div class="col-md-5 mb-4">
+        <h2 class="fw-bold mb-4">Get In Touch</h2>
+        <p><i class="bi bi-geo-alt-fill text-primary me-2"></i>Chino Roces Ave, Makati City, 1223 Metro Manila</p>
+        <p><i class="bi bi-telephone-fill text-primary me-2"></i>+63 921 372 8409</p>
+        <p><i class="bi bi-envelope-fill text-primary me-2"></i>aomwebdesignstudio@gmail.com</p>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="col-md-7">
+        <form id="contact-form" novalidate>
+          <div class="mb-3">
+            <label for="name" class="form-label">Full Name</label>
+            <input type="text" class="form-control" id="name" name="user_name" required>
+            <div class="invalid-feedback">Please enter your name.</div>
+          </div>
+
+          <div class="mb-3">
+            <label for="email" class="form-label">Email Address</label>
+            <input type="email" class="form-control" id="email" name="user_email" required>
+            <div class="invalid-feedback">Please enter a valid email address.</div>
+          </div>
+
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+            <div class="invalid-feedback">Please enter your message.</div>
+          </div>
+
+          <!-- reCAPTCHA (optional, if enabled) -->
+          <div class="mb-3">
+            <div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div>
+          </div>
+
+          <!-- Submit Button -->
+          <button type="submit" id="sendBtn" class="btn btn-primary w-100 d-flex justify-content-center align-items-center">
+            <span id="sendText">Send Message</span>
+            <div id="spinner" class="spinner-border spinner-border-sm text-white ms-2 d-none" role="status"></div>
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Toasts -->
+<div class="position-fixed bottom-0 end-0 p-3" style="z-index: 1050">
+  <div id="successToast" class="toast align-items-center text-bg-success border-0" role="alert" data-bs-delay="3000">
+    <div class="d-flex">
+      <div class="toast-body">Message sent successfully!</div>
+    </div>
+  </div>
+  <div id="errorToast" class="toast align-items-center text-bg-danger border-0" role="alert" data-bs-delay="3000">
+    <div class="d-flex">
+      <div class="toast-body">Something went wrong. Please try again.</div>
+    </div>
+  </div>
+</div>
+
+<!-- Success Sound -->
+<audio id="successSound" src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_441f6ef246.mp3" preload="auto"></audio>
+
+
+
+ <!-- Footer -->
+<footer id="footer" class="text-white py-4 bg-dark fade-in">
+  <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+    
+    <!-- Left: Copyright -->
+    <div class="mb-2 mb-md-0">
+      <small>&copy; <span id="year"></span> AM Web Design Studio. All rights reserved.</small>
+    </div>
+
+    <!-- Right: Social Media Icons -->
+    <div class="d-flex align-items-center gap-3">
+      <a href="https://www.facebook.com/profile.php?id=61576996627373" target="_blank" class="text-white" title="Facebook">
+        <i class="bi bi-facebook fs-5"></i>
+      </a>
+      <a href="https://wa.me/639213728409" target="_blank" class="text-white" title="WhatsApp">
+        <i class="bi bi-whatsapp fs-5"></i>
+      </a>
+      <a href="tel:+639213728409" class="text-white" title="Call">
+        <i class="bi bi-telephone-fill fs-5"></i>
+      </a>
+
+      
+    </div>
+
+  </div>
+</footer>
+
+
+
+  
+  <!-- Scroll to Top Button -->
+<button id="scrollTopBtn" title="Go to top" class="btn btn-primary rounded-circle shadow">
+  <i class="bi bi-arrow-up"></i>
+</button>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Show scroll to top button after scrolling down
+    const scrollTopBtn = document.getElementById("scrollTopBtn");
+
+    window.onscroll = function () {
+      if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+        scrollTopBtn.style.display = "block";
+      } else {
+        scrollTopBtn.style.display = "none";
+      }
+    };
+
+    // Scroll to top when clicked
+    scrollTopBtn.onclick = function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+  </script>
+
+
+<!-- Send Form -->
+
+<!-- EmailJS SDK -->
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script>
+  (function(){
+    emailjs.init("d7JXzuzOdRkdrKjNM"); // Replace with your EmailJS public key
+  })();
+</script>
+
+<!-- to send Form -->
+
+<script>
+document.getElementById("contact-form").addEventListener("submit", function (e) {
+  e.preventDefault();
+
+  // Field validation
+  let isValid = true;
+  const inputs = this.querySelectorAll("input, textarea");
+  inputs.forEach(input => {
+    if (!input.checkValidity()) {
+      input.classList.add("is-invalid");
+      isValid = false;
+    } else {
+      input.classList.remove("is-invalid");
+    }
+  });
+
+  if (!isValid) return;
+
+  // Loading indicator
+  const sendBtn = document.getElementById('sendBtn');
+  const sendText = document.getElementById('sendText');
+  const spinner = document.getElementById('spinner');
+  sendBtn.disabled = true;
+  sendText.textContent = "Sending...";
+  spinner.classList.remove("d-none");
+
+  // Send email using EmailJS
+  emailjs.sendForm('service_v6pbtli', 'template_tj73h86', this)
+    .then(() => {
+      new bootstrap.Toast(document.getElementById('successToast')).show();
+      document.getElementById("successSound")?.play();
+      this.reset();
+      grecaptcha?.reset(); // reset reCAPTCHA if used
+    }, () => {
+      new bootstrap.Toast(document.getElementById('errorToast')).show();
+    })
+    .finally(() => {
+      sendBtn.disabled = false;
+      sendText.textContent = "Send Message";
+      spinner.classList.add("d-none");
+    });
+});
+</script>
+
+<!-- nav bar -->
+
+<script>
+  const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+  const navbarCollapse = document.querySelector('.navbar-collapse');
+
+  navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      if (navbarCollapse.classList.contains('show')) {
+        new bootstrap.Collapse(navbarCollapse).toggle();
+      }
+    });
+  });
+</script>
+
+<!-- scroll to top script -->
+
+<script>
+  const scrollBtn = document.getElementById("scrollTopBtn");
+
+  window.onscroll = () => {
+    scrollBtn.style.display = window.scrollY > 200 ? "block" : "none";
+  };
+
+  scrollBtn.addEventListener("click", () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+</script>
+
+<!-- JavaScript to update year -->
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+
+</body>
+</html>
